@@ -85,19 +85,19 @@ class Obstacle(Widget):
         super(Obstacle, self).__init__(**kwargs)
 
     def update_position(self):
-        self.gap_top = randint(self.gap_size, self.height)
+        self.gap_top = randint(self.gap_size + 112, self.height)
 
     def update(self):
         self.pos = Vector(*self.velocity) + self.pos
 
-class FlappyMcnayGame(Widget):
+class FlappyBirdGame(Widget):
     mcnay = ObjectProperty(None)
     background = ObjectProperty(None)
     obstacles = ListProperty([])
     score = NumericProperty(0)
 
     def __init__(self, **kwargs):
-        super(FlappyMcnayGame, self).__init__(**kwargs)
+        super(FlappyBirdGame, self).__init__(**kwargs)
         self.mcnay.normal_velocity = [0, -4]
         self.mcnay.velocity = self.mcnay.normal_velocity
         self.background.velocity = [-2, 0]
@@ -149,12 +149,12 @@ class FlappyMcnayGame(Widget):
                 # This will also be replaced
                 sys.exit()
 
-class FlappyMcnayApp(App):
+class FlappyBirdApp(App):
 
     def build(self):
-        game = FlappyMcnayGame()
+        game = FlappyBirdGame()
         Clock.schedule_interval(game.update, 1.0/60.0)
         return game
 
 if __name__ == "__main__":
-    FlappyMcnayApp().run()
+    FlappyBirdApp().run()

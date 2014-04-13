@@ -1,6 +1,6 @@
 #:kivy 1.8.0
 
-<FlappyMcnayGame>:
+<FlappyBirdGame>:
     mcnay: mcnay
     background: background
     canvas:
@@ -43,8 +43,8 @@
             pos: self.x, self.gap_top + 20
             size: self.width, self.height - self.gap_top
         Rectangle:
-            pos: self.x, 0
-            size: self.width, self.gap_top - self.gap_size
+            pos: self.x, 112
+            size: self.width, self.gap_top - self.gap_size - 112
     Image:
         source: "images/pipe_bottom.png"
         center_x: root.center_x

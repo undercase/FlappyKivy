@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c448d28-bea2-4aa6-95bb-955ce032f337" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\background.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\download.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappy.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappynormal.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappynormal.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappyup.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappyup.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\pipe_bottom.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\pipe_bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\pipe_top.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\pipe_top.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlappyMcnay.kv" afterPath="$PROJECT_DIR$/FlappyMcnay.kv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlappyMcnay.py" afterPath="$PROJECT_DIR$/FlappyMcnay.py" />
+      <change type="MOVED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\.idea\FlappyMcnay.iml" afterPath="$PROJECT_DIR$/.idea/FlappyBird.iml" />
+      <change type="MOVED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\FlappyMcnay.kv" afterPath="$PROJECT_DIR$/FlappyBird.kv" />
+      <change type="MOVED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\FlappyMcnay.py" afterPath="$PROJECT_DIR$/FlappyBird.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/background.png" afterPath="$PROJECT_DIR$/images/background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flappy.png" afterPath="$PROJECT_DIR$/images/flappy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flappynormal.png" afterPath="$PROJECT_DIR$/images/flappynormal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/flappyup.png" afterPath="$PROJECT_DIR$/images/flappyup.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FlappyMcnay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +35,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.6345811">
       <split-first>
         <leaf>
-          <file leaf-file-name="FlappyMcnay.py" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
+          <file leaf-file-name="FlappyBird.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/FlappyBird.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="70" column="21" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.64395607" vertical-offset="744" max-vertical-offset="3135">
+                <state line="153" column="20" selection-start="5256" selection-end="5256" vertical-scroll-proportion="0.62189054" vertical-offset="2532" max-vertical-offset="3135">
                   <folding />
                 </state>
               </provider>
@@ -54,10 +48,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="FlappyMcnay.kv" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/FlappyMcnay.kv">
+          <file leaf-file-name="FlappyBird.kv" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/FlappyBird.kv">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="17" selection-start="643" selection-end="643" vertical-scroll-proportion="0.26977247" vertical-offset="283" max-vertical-offset="1311">
+                <state line="2" column="11" selection-start="25" selection-end="25" vertical-scroll-proportion="0.06168831" vertical-offset="0" max-vertical-offset="1311">
                   <folding />
                 </state>
               </provider>
@@ -84,8 +78,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/flappy_mcnay.py" />
-        <option value="$PROJECT_DIR$/FlappyMcnay.py" />
         <option value="$PROJECT_DIR$/FlappyMcnay.kv" />
+        <option value="$PROJECT_DIR$/FlappyMcnay.py" />
       </list>
     </option>
   </component>
@@ -125,13 +119,13 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FlappyMcnay" />
+              <option name="myItemId" value="FlappyBird" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FlappyMcnay" />
+              <option name="myItemId" value="FlappyBird" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -171,7 +165,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FlappyMcnay" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlappyMcnay.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Thomas\PycharmProjects\FlappyMcnay\FlappyBird.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -339,14 +333,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -381,35 +375,35 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
+    <entry file="file://$PROJECT_DIR$/FlappyBird.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="3135">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyMcnay.kv">
+    <entry file="file://$PROJECT_DIR$/FlappyBird.kv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="26" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
+    <entry file="file://$PROJECT_DIR$/FlappyBird.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
+    <entry file="file://$PROJECT_DIR$/FlappyBird.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="24" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
+    <entry file="file://$PROJECT_DIR$/FlappyBird.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
           <folding />
@@ -418,24 +412,28 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Kivy-1.8.0-py2.7-win32/kivy/kivy/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="488" column="8" selection-start="16168" selection-end="16168" vertical-scroll-proportion="0.33333334" vertical-offset="8727" max-vertical-offset="18905" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Kivy-1.8.0-py2.7-win32/kivy/kivy/uix/widget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="487" column="4" selection-start="16725" selection-end="16725" vertical-scroll-proportion="0.33279222" vertical-offset="8858" max-vertical-offset="13946" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyMcnay.kv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="17" selection-start="643" selection-end="643" vertical-scroll-proportion="0.26977247" vertical-offset="283" max-vertical-offset="1311">
+        <state line="488" column="8" selection-start="16168" selection-end="16168" vertical-scroll-proportion="0.33333334" vertical-offset="8727" max-vertical-offset="18905">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
+    <entry file="file://$USER_HOME$/Desktop/Kivy-1.8.0-py2.7-win32/kivy/kivy/uix/widget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="21" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.64395607" vertical-offset="744" max-vertical-offset="3135">
+        <state line="487" column="4" selection-start="16725" selection-end="16725" vertical-scroll-proportion="0.33279222" vertical-offset="8858" max-vertical-offset="13946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="25" selection-end="25" vertical-scroll-proportion="0.06168831" vertical-offset="0" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyBird.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="20" selection-start="5256" selection-end="5256" vertical-scroll-proportion="0.62189054" vertical-offset="2532" max-vertical-offset="3135">
           <folding />
         </state>
       </provider>
