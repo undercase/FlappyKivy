@@ -2,12 +2,13 @@
 
 <FlappyMcnayGame>:
     mcnay: mcnay
+    background: background
     canvas:
         Color:
             rgb: 137 / 255.0, 228 / 255.0, 135 / 255.0
-        Rectangle:
-            size: root.size
-            pos: root.pos
+    Background:
+        id: background
+        pos: root.pos
     Mcnay:
         id: mcnay
         center_x: root.center_x
@@ -16,10 +17,22 @@
         font_size: 70
         center_x: root.center_x
         top: root.top - 30
-        text: str(root.score)
+        markup: True
+        text: "[color=ff0000]" + str(root.score) + "[/color]"
 
 <Background>:
-
+    image_one: image_one
+    image_two: image_two
+    Image:
+        id: image_one
+        source: "background.png"
+        pos: 0, 0
+        size: 800, 600
+    Image:
+        id: image_two
+        source: "background.png"
+        pos: root.width, 0
+        size: 800, 600
 
 <Obstacle>:
     width: 30
@@ -33,11 +46,11 @@
             pos: self.x, 0
             size: self.width, self.gap_top - self.gap_size
     Image:
-        source: "pipe_bottom.jpg"
+        source: "pipe_bottom.png"
         center_x: root.center_x
         y: root.gap_top - 20
     Image:
-        source: "pipe_top.jpg"
+        source: "pipe_top.png"
         center_x: root.center_x
         y: root.gap_top - root.gap_size - 40
 
@@ -46,6 +59,6 @@
     size: 50, 50
     Image:
         id: image
-        source: "flappy.jpg"
+        source: "flappy.png"
         size: root.size
         pos: root.pos

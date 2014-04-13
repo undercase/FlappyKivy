@@ -12,15 +12,31 @@ from kivy.clock import Clock
 from kivy.uix.widget import Widget
 
 class Background(Widget):
+    image_one = ObjectProperty(None)
+    image_two = ObjectProperty(None)
+
     velocity_x = NumericProperty(0)
-    velocity_y = NumericProperty()
+    velocity_y = NumericProperty(0)
     velocity = ReferenceListProperty(velocity_x, velocity_y)
+
+    def update(self):
+        self.image_one.pos = Vector(*self.velocity) + self.image_one.pos
+        self.image_two.pos = Vector(*self.velocity) + self.image_two.pos
+
+        if self.image_one.right <= 0:
+            self.image_one.pos = (self.width, 0)
+        if self.image_two.right <= 0:
+            self.image_two.pos = (self.width, 0)
+
+    def update_position(self):
+        self.image_one.pos = (0, 0)
+        self.image_two.pos = (self.width, 0)
 
 class Mcnay(Widget):
     bird_image = ObjectProperty(None)
 
     jump_time = NumericProperty(0.3)
-    jump_height = NumericProperty(80)
+    jump_height = NumericProperty(95)
 
     time_jumped = NumericProperty(0)
 
@@ -37,17 +53,17 @@ class Mcnay(Widget):
         super(Mcnay, self).__init__(**kwargs)
 
     def switch_to_normal(self, dt):
-        self.bird_image.source = "flappyup.jpg"
+        self.bird_image.source = "flappyup.png"
         Clock.schedule_once(self.stop_jumping, self.jump_time  * (4.0 / 5.0))
 
     def stop_jumping(self, dt):
         self.jumping = False
-        self.bird_image.source = "flappy.jpg"
+        self.bird_image.source = "flappy.png"
         self.velocity_y = self.normal_velocity_y
 
     def on_touch_down(self, touch):
         self.jumping = True
-        self.bird_image.source = "flappynormal.jpg"
+        self.bird_image.source = "flappynormal.png"
         self.velocity_y = self.jump_height / (self.jump_time * 60.0)
         Clock.unschedule(self.stop_jumping)
         Clock.schedule_once(self.switch_to_normal, self.jump_time  / 5.0)
@@ -76,13 +92,15 @@ class Obstacle(Widget):
 
 class FlappyMcnayGame(Widget):
     mcnay = ObjectProperty(None)
+    background = ObjectProperty(None)
     obstacles = ListProperty([])
     score = NumericProperty(0)
 
     def __init__(self, **kwargs):
         super(FlappyMcnayGame, self).__init__(**kwargs)
-        self.mcnay.normal_velocity = [0, -3]
+        self.mcnay.normal_velocity = [0, -4]
         self.mcnay.velocity = self.mcnay.normal_velocity
+        self.background.velocity = [-2, 0]
         self.bind(size=self.size_callback)
 
     def remove_obstacle(self):
@@ -104,9 +122,12 @@ class FlappyMcnayGame(Widget):
         for obstacle in self.obstacles:
             obstacle.height = value[1]
             obstacle.update_position()
+        self.background.size = value
+        self.background.update_position()
 
     def update(self, dt):
         self.mcnay.update()
+        self.background.update()
         # Loop through and update obstacles. Replace obstacles which went off the screen.
         for obstacle in self.obstacles:
             obstacle.update()
