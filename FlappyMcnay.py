@@ -53,17 +53,17 @@ class Mcnay(Widget):
         super(Mcnay, self).__init__(**kwargs)
 
     def switch_to_normal(self, dt):
-        self.bird_image.source = "flappyup.png"
+        self.bird_image.source = "images/flappyup.png"
         Clock.schedule_once(self.stop_jumping, self.jump_time  * (4.0 / 5.0))
 
     def stop_jumping(self, dt):
         self.jumping = False
-        self.bird_image.source = "flappy.png"
+        self.bird_image.source = "images/flappy.png"
         self.velocity_y = self.normal_velocity_y
 
     def on_touch_down(self, touch):
         self.jumping = True
-        self.bird_image.source = "flappynormal.png"
+        self.bird_image.source = "images/flappynormal.png"
         self.velocity_y = self.jump_height / (self.jump_time * 60.0)
         Clock.unschedule(self.stop_jumping)
         Clock.schedule_once(self.switch_to_normal, self.jump_time  / 5.0)

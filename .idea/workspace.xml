@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c448d28-bea2-4aa6-95bb-955ce032f337" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\download.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappy.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappynormal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappynormal.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappyup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\flappyup.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\pipe_bottom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\pipe_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\pipe_top.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Thomas\PycharmProjects\FlappyMcnay\pipe_top.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlappyMcnay.kv" afterPath="$PROJECT_DIR$/FlappyMcnay.kv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlappyMcnay.py" afterPath="$PROJECT_DIR$/FlappyMcnay.py" />
     </list>
@@ -31,7 +44,7 @@
           <file leaf-file-name="FlappyMcnay.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.7562189" vertical-offset="0" max-vertical-offset="3135">
+                <state line="70" column="21" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.64395607" vertical-offset="744" max-vertical-offset="3135">
                   <folding />
                 </state>
               </provider>
@@ -44,7 +57,7 @@
           <file leaf-file-name="FlappyMcnay.kv" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/FlappyMcnay.kv">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="26" selection-start="452" selection-end="452" vertical-scroll-proportion="0.6168831" vertical-offset="0" max-vertical-offset="1311">
+                <state line="28" column="17" selection-start="643" selection-end="643" vertical-scroll-proportion="0.26977247" vertical-offset="283" max-vertical-offset="1311">
                   <folding />
                 </state>
               </provider>
@@ -326,10 +339,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -342,11 +354,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -370,6 +383,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="3135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyMcnay.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
           <folding />
         </state>
@@ -391,33 +418,24 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Kivy-1.8.0-py2.7-win32/kivy/kivy/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="488" column="8" selection-start="16168" selection-end="16168" vertical-scroll-proportion="0.33333334" vertical-offset="8727" max-vertical-offset="18905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/kivy-logo-black-64.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+        <state line="488" column="8" selection-start="16168" selection-end="16168" vertical-scroll-proportion="0.33333334" vertical-offset="8727" max-vertical-offset="18905" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Kivy-1.8.0-py2.7-win32/kivy/kivy/uix/widget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="487" column="4" selection-start="16725" selection-end="16725" vertical-scroll-proportion="0.33279222" vertical-offset="8858" max-vertical-offset="13946">
-          <folding />
-        </state>
+        <state line="487" column="4" selection-start="16725" selection-end="16725" vertical-scroll-proportion="0.33279222" vertical-offset="8858" max-vertical-offset="13946" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlappyMcnay.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="452" selection-end="452" vertical-scroll-proportion="0.6168831" vertical-offset="0" max-vertical-offset="1311">
+        <state line="28" column="17" selection-start="643" selection-end="643" vertical-scroll-proportion="0.26977247" vertical-offset="283" max-vertical-offset="1311">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlappyMcnay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.7562189" vertical-offset="0" max-vertical-offset="3135">
+        <state line="70" column="21" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.64395607" vertical-offset="744" max-vertical-offset="3135">
           <folding />
         </state>
       </provider>
