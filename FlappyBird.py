@@ -12,8 +12,8 @@ from kivy.clock import Clock
 from kivy.uix.widget import Widget
 
 class Background(Widget):
-    image_one = ObjectProperty(None)
-    image_two = ObjectProperty(None)
+    image_one = ObjectProperty(Image())
+    image_two = ObjectProperty(Image())
 
     velocity_x = NumericProperty(0)
     velocity_y = NumericProperty(0)
@@ -33,7 +33,7 @@ class Background(Widget):
         self.image_two.pos = (self.width, 0)
 
 class Mcnay(Widget):
-    bird_image = ObjectProperty(None)
+    bird_image = ObjectProperty(Image())
 
     jump_time = NumericProperty(0.3)
     jump_height = NumericProperty(95)
@@ -91,8 +91,8 @@ class Obstacle(Widget):
         self.pos = Vector(*self.velocity) + self.pos
 
 class FlappyBirdGame(Widget):
-    mcnay = ObjectProperty(None)
-    background = ObjectProperty(None)
+    mcnay = ObjectProperty(Mcnay())
+    background = ObjectProperty(Background())
     obstacles = ListProperty([])
     score = NumericProperty(0)
 
