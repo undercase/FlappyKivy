@@ -9,6 +9,8 @@ from kivy.uix.image import Image
 from kivy.vector import Vector
 from kivy.app import App
 from kivy.clock import Clock
+from kivy.config import Config
+from kivy.core.window import Window
 from kivy.uix.widget import Widget
 
 class Background(Widget):
@@ -51,6 +53,14 @@ class Mcnay(Widget):
 
     def __init__(self, **kwargs):
         super(Mcnay, self).__init__(**kwargs)
+        if Config.getdefault('input', 'keyboard', False):
+            self._keyboard = Window.request_keyboard(
+                self._keyboard_closed, self, 'text')
+            self._keyboard.bind(on_key_down=self._on_keyboard_down)
+
+    def _keyboard_closed(self):
+        self._keyboard.unbind(on_key_down=self._on_keyboard_down)
+        self._keyboard = None
 
     def switch_to_normal(self, dt):
         self.bird_image.source = "images/flappyup.png"
@@ -67,6 +77,9 @@ class Mcnay(Widget):
         self.velocity_y = self.jump_height / (self.jump_time * 60.0)
         Clock.unschedule(self.stop_jumping)
         Clock.schedule_once(self.switch_to_normal, self.jump_time  / 5.0)
+
+    def _on_keyboard_down(self, keyboard, keycode, text, modifiers):
+        self.on_touch_down(None)
 
     def update(self):
         self.pos = Vector(*self.velocity) + self.pos
