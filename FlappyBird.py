@@ -83,6 +83,10 @@ class Mcnay(Widget):
 
     def update(self):
         self.pos = Vector(*self.velocity) + self.pos
+        if self.pos[1] <= 104:
+            Clock.unschedule(self.stop_jumping)
+            self.bird_image.source = "images/flappynormal.png"
+            self.pos = (self.pos[0], 104)
 
 class Obstacle(Widget):
     gap_top = NumericProperty(0)
